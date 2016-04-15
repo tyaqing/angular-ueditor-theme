@@ -1,0 +1,15 @@
+{
+  "name": "basic",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.13.1",
+    "fs": "0.0.2",
+    "less": "^2.6.1",
+    "morgan": "~1.6.1",
+    "path": "^0.12.7"
+  }
+}

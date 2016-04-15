@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body ng-app="index" class="container">
+<header><br><br><br></header>
+<div class="col-lg-1"></div>
+<div class="col-lg-10" ng-controller="CTRL">
+    <h1>angular-ueditor-theme <a href="https://github.com/tyaqing/angular-ueditor-theme">Github</a></h1>
+
+    <div class="panel">
+        <form name="v">
+            <h4>暂时只有这些功能啦,如果还有什么其他问题或者功能需要可以issues</h4>
+
+            <br><br>
+            <div class="ueditor" name="content" ng-model="content2" config="_simpleConfig" required></div>
+        </form>
+
+        <div style="background:#FFF;color:red">
+            <tt>content = {{content}}</tt>
+            <br>
+            <tt>v.content.$valid = {{v.content.$valid}}</tt>
+            <br>
+            <tt>v.content.$error = {{v.content.$error}}</tt>
+            <br>
+            <tt>v.$valid = {{v.$valid}}</tt>
+            <br>
+            <tt>v.$error.required = {{!!v.$error.required}}</tt>
+            <br></div>
+    </div>
+</div>
+<div class="col-lg-1"></div>
+
+<script src="/angular/angular.min.js"></script>
+<script src="/jquery/dist/jquery.min.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/angular-route/angular-route.min.js"></script>
+<script src="/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<!--//编辑器-->
+
+<script  src="/ueditor/ueditor.config.js"></script>
+<script  src="/ueditor/ueditor.all.js"></script>
+<script src="/angular-ueditor/dist/angular-ueditor.js"></script>
+<script src="/ueditor.js"></script>
+<script>
+
+</script>
+</body>
+</html>

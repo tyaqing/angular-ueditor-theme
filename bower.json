@@ -1,0 +1,26 @@
+{
+  "name": "basic",
+  "description": "simple ae framerwork",
+  "main": "",
+  "authors": [
+    "ArH <626019610@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-ueditor": "*"
+  }
+}
